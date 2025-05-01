@@ -9,7 +9,7 @@ const ranges = player.querySelectorAll('.player__slider');
 
 function togglePlay(){
 
-    const method = video.paused ? 'play' : 'pause';
+    const method = video.paused ? 'play' : 'pause'; //trueなら、playを代入、falseならpauseを代入する
     video[method]();
 }
 
